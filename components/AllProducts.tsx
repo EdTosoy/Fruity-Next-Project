@@ -3,17 +3,17 @@ export default function AllProducts() {
   const products = [
     {
       image: "/images/product11.png",
-      name: "Grapes",
+      name: "Watermelon",
       price: "$3.99",
     },
     {
       image: "/images/product10.png",
-      name: "Mango",
-      price: "$3.69",
+      name: "Apple",
+      price: "$1.69",
     },
     {
       image: "/images/product3.png",
-      name: "Strawberry",
+      name: "Lemon",
       price: "$4.03",
     },
     {
@@ -23,7 +23,7 @@ export default function AllProducts() {
     },
     {
       image: "/images/product7.png",
-      name: "Grapes",
+      name: "Strawberry",
       price: "$3.99",
     },
     {
@@ -33,17 +33,17 @@ export default function AllProducts() {
     },
     {
       image: "/images/product5.png",
-      name: "Strawberry",
+      name: "Grapes",
       price: "$4.03",
     },
     {
       image: "/images/product4.png",
-      name: "Indian Mango",
+      name: "Banana",
       price: "$3.25",
     },
   ];
   return (
-    <main className="grid-container">
+    <main className="grid-container" id="Shop" >
       <div className="col-start-2 col-end-3 pt-20 pb-10">
         <div className="text-center">
           <h1 className="text-2xl font-semibold mb-5">All Products</h1>

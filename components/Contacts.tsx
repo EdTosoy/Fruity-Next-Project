@@ -1,6 +1,6 @@
 export default function Contacts() {
   return (
-    <main className="grid-container">
+    <main className="grid-container" id="Contact" >
       <div className="col-start-2 col-end-3 flex flex-col md:flex-row  justify-between items-center pt-20 pb-10 border-t">
         <div className="">
           <h1 className="text-purple-900 font-bold text-4xl mb-3">Subscribe for more vidoes</h1>

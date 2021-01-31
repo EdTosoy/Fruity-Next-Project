@@ -3,7 +3,7 @@ export default function FeaturedProducts() {
   const products = [
     {
       image: "/images/product9.png",
-      name: "Grapes",
+      name: "Apple",
       price: "$3.99",
     },
     {
@@ -13,17 +13,17 @@ export default function FeaturedProducts() {
     },
     {
       image: "/images/product3.png",
-      name: "Strawberry",
+      name: "Lemon",
       price: "$4.03",
     },
     {
       image: "/images/product4.png",
-      name: "Indian Mango",
+      name: "Banana",
       price: "$3.25",
     },
   ];
   return (
-    <main className="grid-container">
+    <main className="grid-container" id="Featured" >
       <div className="col-start-2 col-end-3 pt-20 pb-10">
         <div className="text-center">
           <h1 className="text-2xl font-semibold mb-5">Featured Products</h1>

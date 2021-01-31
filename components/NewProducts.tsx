@@ -23,14 +23,14 @@ export default function NewProducts() {
     },
   ];
   return (
-    <main className="grid-container">
+    <main className="grid-container" id="New" >
       <div className="col-start-2 col-end-3 pt-20 pb-10">
         <div className="text-center">
           <h1 className="text-2xl font-semibold mb-5">New Products</h1>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4">
           {products.map(({ image, name, price }) => (
-            <div className="m-4 p-4 rounded-lg border shadow-md">
+            <div className="m-4 p-4 rounded-lg border shadow-md" key={name}>
               <div className="grid place-items-center">
                 <Image src={image} width={200} height={200} />
                 <p className="text-lg">{name}</p>
