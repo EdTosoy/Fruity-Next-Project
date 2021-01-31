@@ -8,9 +8,18 @@ import Promo from "components/Promo";
 import Head from "next/head";
 import Footer from "../components/Footer";
 
+
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Fruity</title>
+        <meta
+          name="description"
+          content="We Beleive That Healthy Eating, Clean Air And, Gental Char Best Start To Genuine Wellbeing "
+        />
+      </Head>
+
       <Header />
       <Hero />
       <NewProducts />

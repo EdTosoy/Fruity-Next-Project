@@ -10,14 +10,16 @@ export default function Contacts() {
           </p>
         </div>
         <div className="relative grid items-center border-black border-4 rounded-full px-4 overflow-hidden ">
+          <label htmlFor="email"></label>
           <input
             type="email"
             name="email"
             id="email"
             placeholder="John.doe@gmail.com"
             className="py-4 text-lg w-72 sm:w-96 text-purple-900 "
+            aria-label="email"
           />
-          <button className="bg-pink-500 hover:bg-pink-700 text-white py-3 px-8 text-lg rounded-full absolute right-1 ">
+          <button  className="bg-pink-500 hover:bg-pink-700 text-white py-3 px-8 text-lg rounded-full absolute right-1 ">
             Subscribe
           </button>
         </div>

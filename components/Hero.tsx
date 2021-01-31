@@ -9,7 +9,7 @@ export default function Hero() {
                     <button className="rounded-md bg-purple-900 hover:bg-purple-800 py-3 px-8 text-white">SHOP NOW</button>
                 </div>
                 <div className="m-10 md:mr-0">
-                    <Image src="/images/banner.png" width={450}  height={450} />
+                    <Image src="/images/banner.png" width={640}  height={603} alt="hero" />
                 </div>
             </div>
         </main>

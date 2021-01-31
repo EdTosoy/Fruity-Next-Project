@@ -32,7 +32,7 @@ export default function NewProducts() {
           {products.map(({ image, name, price }) => (
             <div className="m-4 p-4 rounded-lg border shadow-md" key={name}>
               <div className="grid place-items-center">
-                <Image src={image} width={200} height={200} />
+                <Image src={image} width={200} height={200} alt={name} />
                 <p className="text-lg">{name}</p>
                 <h2 className="font-semibold text-xl text-pink-500 ">
                   {price}

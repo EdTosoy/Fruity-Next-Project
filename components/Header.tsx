@@ -39,7 +39,7 @@ export default function Header() {
             </a>
           ))}
         </div>
-        <div className="md:hidden">
+        <div className="md:hidden cursor-pointer">
           <box-icon name="menu-alt-right" color="purple" size="md"></box-icon>
         </div>
       </header>

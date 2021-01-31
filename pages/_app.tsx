@@ -1,10 +1,14 @@
 // import App from "next/app";
 
 import type { AppProps /*, AppContext */ } from "next/app";
+import { Head } from "next/document";
 import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  <Head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />;
+  </Head>;
   return <Component {...pageProps} />;
 }
 

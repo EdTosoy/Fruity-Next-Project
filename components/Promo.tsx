@@ -12,7 +12,7 @@ export default function Promo() {
               Shop Now
             </button>
           </div>
-          <Image src="/images/cat2.png" width={150} height={150} />
+          <Image src="/images/cat2.png" width={150} height={150} alt="cat" />
         </div>
         <div className="border rounded-lg p-4 flex items-center justify-between m-4">
           <div className="">
@@ -23,7 +23,7 @@ export default function Promo() {
               Shop Now
             </button>
           </div>
-          <Image src="/images/cat1.png" width={150} height={150} />
+          <Image src="/images/cat1.png" width={150} height={150} alt="cat" />
         </div>
       </div>
     </main>
